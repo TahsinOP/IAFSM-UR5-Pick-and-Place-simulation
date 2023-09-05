@@ -6,4 +6,7 @@
 4. Gazebo
 
 
-### Extract all the zip files into your src folder and build it 
+
+## Setup
+1. Extract all the packages into your src folder and build them
+2. Configure Moveit in your ROS workspace
