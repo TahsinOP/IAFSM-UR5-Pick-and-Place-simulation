@@ -36,7 +36,7 @@ roslaunch newxxx_combined_moveit_config pick_and_place.py
 To run the simulation in Gazebo world : 
 ``` bash
 roslaunch newxxx_combined_moveit_config pick_and_place_gazebo.py
-
+```
 https://github.com/TahsinOP/IAFSM-UR5-Pick-and-Place-simulation/assets/117567813/5a5be761-8d11-4b91-b4d0-5a7d42157339
 
 
