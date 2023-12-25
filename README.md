@@ -16,11 +16,25 @@ Use the following commands in your terminal:
 cd /colcon_ws
 colcon build
 ```
-### Launching the Moveit Planning scene 
+### Launching the Moveit Planning scene and Gazebo world 
 Use the following commands in a new terminal:
-
+To launch the planning scene 
 ```bash
 roslaunch newxxx_combined_moveit_config demo.launch
 ```
+To launch the Gazebo world 
+```bash
+roslaunch newxxx_combined_moveit_config gazebo.launch
+```
+
+### Running the python scripts 
+Make to sure the add the scripts in CmakeLists and then run the following commands in terminal :
+To run the simulation in the planning scene : 
+``` bash
+roslaunch newxxx_combined_moveit_config pick_and_place.py
+```
+To run the simulation in Gazebo world : 
+``` bash
+roslaunch newxxx_combined_moveit_config pick_and_place_gazebo.py
 
 
