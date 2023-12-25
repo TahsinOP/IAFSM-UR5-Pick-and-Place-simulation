@@ -13,8 +13,8 @@
 Use the following commands in your terminal:
 
 ```bash
-cd /colcon_ws
-colcon build
+cd /catkin_ws
+catkin build
 ```
 ### Launching the Moveit Planning scene and Gazebo world 
 Use the following commands in a new terminal:
