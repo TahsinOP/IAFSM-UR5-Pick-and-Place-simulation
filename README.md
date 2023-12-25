@@ -15,3 +15,12 @@ Use the following commands in your terminal:
 ```bash
 cd /colcon_ws
 colcon build
+```
+### Launching the Moveit Planning scene 
+Use the following commands in a new terminal:
+
+```bash
+roslaunch newxxx_combined_moveit_config demo.launch
+```
+
+
